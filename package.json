@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Intercept the Vue render function while using the classic .vue file templating.",
   "license": "MIT",
-  "private": "false",
+  "private": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/ctrain149/v-component" 
