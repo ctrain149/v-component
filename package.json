@@ -1,6 +1,9 @@
 {
   "name": "v-component",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "main": "dist/library.js",
+  "module": "dist/library.mjs",
+  "files": [ "dist/*", "src/v2", "src/v3" ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
