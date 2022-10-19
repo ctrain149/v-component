@@ -1,9 +1,17 @@
 {
   "name": "v-component",
   "version": "0.0.1",
+  "description": "Intercept the Vue render function while using the classic .vue file templating.",
+  "license": "MIT",
+  "private": "false",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctrain149/v-component" 
+  },
   "main": "dist/library.js",
   "module": "dist/library.mjs",
-  "files": [ "dist/*", "src/v2", "src/v3" ],
+  "files": [ "dist/*", "src/v2.vue", "src/v3.vue" ],
+  "keywords": ["v-component", "vue", "vuejs", "custom", "component", "render", "override"],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -15,8 +23,5 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.3",
     "vite": "^3.0.9"
-  },
-  "peerDependencies": {
-    "vue": "^3.2.38"
   }
 }
