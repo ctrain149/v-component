@@ -1,16 +1,22 @@
 {
   "name": "v-component",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "main": "dist/library.js",
+  "module": "dist/library.mjs",
+  "files": [ "dist/*", "src/v2", "src/v3" ],
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "rollup -c",
     "preview": "vite preview --port 4173"
   },
   "dependencies": {
-    "vue": "^3.2.38"
+    "vue": "^2.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.3",
+    "rollup": "^2.78.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-vue": "^6.0.0",
     "vite": "^3.0.9"
   },
   "peerDependencies": {
